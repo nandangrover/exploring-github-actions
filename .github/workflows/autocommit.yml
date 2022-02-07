@@ -28,14 +28,14 @@ jobs:
           git config --local user.name "nandangrover"
           git add -A
 
-          arr[0]="feat: 😂 auto commit"
-          arr[1]="feat: 😱 auto commit"
-          arr[2]="feat: 👿 auto commit"
-          arr[3]="feat: 💩 auto commit"
-          arr[4]="feat: 🙏 auto commit"
-          arr[5]="feat: 🙈 auto commit"
-          arr[6]="feat: 🐐 auto commit"
-          arr[7]="feat: 🚀 auto commit"
+          arr[0]="Modifying cron"
+          arr[1]="auto commit"
+          arr[2]="Cleanup"
+          arr[3]="Release v2.0"
+          arr[4]="Make github greener"
+          arr[5]="code = edoc"
+          arr[6]="Learning github actions"
+          arr[7]="auto commit"
 
           rand=$[$RANDOM % ${#arr[@]}]
 
